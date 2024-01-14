@@ -5,18 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev-build": "vue-tsc && vite build",
-    "dev-preview": "vite preview",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.11",
-    "core-js": "^3.8.3",
-    "vue-class-component": "^8.0.0-0",
-    "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vue": "^4.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
